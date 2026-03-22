@@ -1,0 +1,31 @@
+setuptools
+
+#lang Family
+langchain
+langchain-core
+langchain-text-splitters
+langgraph
+langgraph-checkpoint
+langgraph-checkpoint-sqlite
+langgraph-prebuilt
+langgraph-sdk
+langsmith
+
+#Hugging face
+langchain-huggingface
+transformers
+huggingface-hub
+sentence-transformers
+
+#mistral
+langchain-mistralai
+
+#langchain-groq
+langchain-groq
+groq
+
+numpy
+scikit-learn
+python-dotenv
+
+-e .
