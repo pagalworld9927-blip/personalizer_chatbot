@@ -4,8 +4,11 @@ from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 from dotenv import load_dotenv
 import os
 import logging
-from src.loggers import loggging
 from src.exceptions import CustomException
+import sys
+
+logger = logging.getLogger(__name__)
+
 
 load_dotenv()
 
@@ -14,7 +17,7 @@ def GetMistralAI(model_name = "mistral-large-2512"):
     api_key = os.getenv("MISTRAL_API_KEY")
 
     if not api_key:
-        raise ValueError("API Key loaded sucessfully")
+        raise ValueError("MISTRAL_API_KEY not found in environment variables")
 
     llm = ChatMistralAI(model = model_name, api_key=api_key, max_tokens =300)
     return llm
