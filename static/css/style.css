@@ -6,10 +6,81 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(161, 197, 197);
+    margin: 0;
+    height: 100vh;
+}
+
+/* ──────────────────────────────────────────────────
+   LAYOUT: Put the sidebar and chat side-by-side!
+────────────────────────────────────────────────── */
+.app-container {
+    display: flex;
+    flex: 1;
+    height: 89vh;
+    /* Takes exactly the remaining space below the header! */
+    overflow: hidden;
+    /* Prevents double scrollbars */
+}
+
+/* ──────────────────────────────────────────────────
+   LEFT COLUMN: The Sidebar
+────────────────────────────────────────────────── */
+.sidebar {
+    width: 260px;
+    background-color: #4f5051;
+    color: white;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    padding: 15px;
+    gap: 15px;
+    /* Height is handled automatically by Flexbox now, no more white space! */
+}
+
+.new-chat-btn {
+    padding: 12px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #565869;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+}
+
+.new-chat-btn:hover {
+    background-color: #2a2b32;
+}
+
+.History-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.thread-btn {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #ececf1;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.thread-btn:hover {
+    background-color: #2a2b32;
+}
+
+
+/* ──────────────────────────────────────────────────
+   RIGHT COLUMN: The Chat Area
+────────────────────────────────────────────────── */
+.chat-container {
+    flex: 1;
+    /* Stretch to fill the right side of the screen! */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(161, 197, 197);
 }
 
 header {
@@ -30,6 +101,7 @@ header {
     gap: 10px;
     overflow-y: auto;
     border-bottom: 2px solid rgb(228, 232, 232);
+    /* Removed margin-left: 260px! Flexbox handles this automatically now. */
 }
 
 .message {
@@ -38,7 +110,6 @@ header {
     max-width: 70%;
     font-size: 15px;
 }
-
 
 .ai-message {
     background-color: #000000;

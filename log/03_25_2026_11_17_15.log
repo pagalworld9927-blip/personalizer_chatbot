@@ -1,0 +1,19 @@
+[ 2026-03-25 11:17:15,670 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-03-25 11:17:15,676 ] 97 werkzeug - INFO -  * Debugger PIN: 143-482-477
+[ 2026-03-25 11:18:14,099 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:18:14] "GET / HTTP/1.1" 200 -
+[ 2026-03-25 11:18:14,353 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:18:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-03-25 11:18:14,356 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:18:14] "GET /static/js/main.js HTTP/1.1" 200 -
+[ 2026-03-25 11:18:22,792 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:18:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-03-25 11:18:22,815 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:18:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[ 2026-03-25 11:19:07,847 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:19:07] "GET / HTTP/1.1" 200 -
+[ 2026-03-25 11:19:07,908 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:19:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[ 2026-03-25 11:19:07,934 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:19:07] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-03-25 11:19:07,935 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:19:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-25 11:19:11,810 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:19:11] "POST /history HTTP/1.1" 200 -
+[ 2026-03-25 11:19:18,672 ] 1025 httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-03-25 11:19:18,674 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:19:18] "POST /chat HTTP/1.1" 200 -
+[ 2026-03-25 11:19:26,730 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:19:26] "POST /history HTTP/1.1" 200 -
+[ 2026-03-25 11:19:32,907 ] 1025 httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-03-25 11:19:32,909 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:19:32] "POST /chat HTTP/1.1" 200 -
+[ 2026-03-25 11:19:34,744 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:19:34] "POST /history HTTP/1.1" 200 -
+[ 2026-03-25 11:19:36,300 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Mar/2026 11:19:36] "POST /history HTTP/1.1" 200 -

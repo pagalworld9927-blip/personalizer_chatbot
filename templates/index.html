@@ -9,30 +9,45 @@
 </head>
 
 <body>
+
+    <!-- Move Header to the very top of the page so the Sidebar sits beneath it! -->
     <header>
         <div>
             <h1> My Personalizer Chatbot </h1>
         </div>
     </header>
 
-    <div class="chat-window" id="chat-window">
-        <!-- message will be added here dunamically by js  -->
-    </div>
+    <!-- The app-container wraps EVERYTHING so they sit side-by-side below the header -->
+    <div class="app-container">
 
+        <!-- Left Column: Sidebar -->
+        <div class="sidebar">
+            <button class="new-chat-btn" id="new-chat-btn"> New chat</button>
 
-    <div>
-        <div class="input-area">
-            <input type="text" class="input-box" id="user-input" placeholder="Type Here...">
-            <button class="send-btn" id="send-btn">Send 🚀</button>
+            <h3>History</h3>
+            <div class="History-list" id="History-list">
+                <!-- Javascript will auto-generate buttons here -->
+            </div>
         </div>
+
+        <!-- Right Column: Chat Container -->
+        <div class="chat-container">
+
+            <div class="chat-window" id="chat-window">
+                <!-- Messages will be added here dynamically by JS -->
+            </div>
+
+            <div class="input-area">
+                <input type="text" class="input-box" id="user-input" placeholder="Type Here...">
+                <button class="send-btn" id="send-btn">Send 🚀</button>
+            </div>
+        </div>
+
     </div>
 
     <!-- Connect our JavaScript file using Flask's url_for -->
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
-
-
-
 
 
 </body>
