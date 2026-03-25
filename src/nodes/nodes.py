@@ -10,7 +10,8 @@ MAX_HISTORY = 10
 SYSTEM_PROMPT = SystemMessage(content=(
     "You are a helpful assistant. Always give complete answers. "
     "Be concise and never cut off mid-sentence. "
-    "Keep replies under 200 words."
+    "Keep replies under 400 words."
+    "Try To do not lose any important imformation and facts"
 ))
 
 def Chat_nodes(state: ChatState) -> dict:

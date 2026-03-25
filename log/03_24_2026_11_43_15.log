@@ -1,0 +1,46 @@
+[ 2026-03-24 11:43:15,315 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-03-24 11:43:15,317 ] 97 werkzeug - INFO -  * Debugger PIN: 143-482-477
+[ 2026-03-24 11:43:57,992 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:43:57] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:43:58,306 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:43:58] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-03-24 11:43:58,308 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:43:58] "GET /static/js/main.js HTTP/1.1" 200 -
+[ 2026-03-24 11:43:58,392 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:43:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2026-03-24 11:44:21,978 ] 1025 httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-03-24 11:44:21,997 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:44:21] "POST /chat HTTP/1.1" 200 -
+[ 2026-03-24 11:44:56,156 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:44:56] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:44:56,238 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:44:56] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-03-24 11:44:56,243 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:44:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:45:17,712 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:45:17] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:45:17,787 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:45:17] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-03-24 11:45:17,814 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:45:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:45:35,690 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:45:35] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:45:35,759 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:45:35] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-03-24 11:45:35,764 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:45:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:45:52,859 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:45:52] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:45:52,928 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:45:52] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-03-24 11:45:52,933 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:45:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:46:10,177 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:46:10] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:46:10,247 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:46:10] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-03-24 11:46:10,251 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:46:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:46:34,812 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:46:34] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:46:34,871 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:46:34] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-03-24 11:46:34,875 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:46:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:46:36,267 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:46:36] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:46:36,317 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:46:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:46:36,320 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:46:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:46:56,095 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:46:56] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:46:56,165 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:46:56] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-03-24 11:46:56,170 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:46:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:47:27,124 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:47:27] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:47:27,199 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:47:27] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-03-24 11:47:27,203 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:47:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:47:43,618 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:47:43] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:47:43,697 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:47:43] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-03-24 11:47:43,699 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:47:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:48:10,521 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:48:10] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:48:10,600 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:48:10] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2026-03-24 11:48:10,607 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:48:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:48:19,943 ] 1025 httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-03-24 11:48:19,958 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:48:19] "POST /chat HTTP/1.1" 200 -
+[ 2026-03-24 11:48:58,037 ] 1025 httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-03-24 11:48:58,043 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:48:58] "POST /chat HTTP/1.1" 200 -
+[ 2026-03-24 11:53:58,552 ] 97 werkzeug - INFO -  * Detected change in 'D:\\mannu\\GEN AI\\Personalizer_Chatbot\\app.py', reloading

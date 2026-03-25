@@ -27,5 +27,6 @@ groq
 numpy
 scikit-learn
 python-dotenv
+flask
 
 -e .

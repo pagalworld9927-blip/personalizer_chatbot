@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <title> Personalizer Chatbot </title>
 </head>
 
@@ -14,6 +14,26 @@
             <h1> My Personalizer Chatbot </h1>
         </div>
     </header>
+
+    <div class="chat-window" id="chat-window">
+        <!-- message will be added here dunamically by js  -->
+    </div>
+
+
+    <div>
+        <div class="input-area">
+            <input type="text" class="input-box" id="user-input" placeholder="Type Here...">
+            <button class="send-btn" id="send-btn">Send 🚀</button>
+        </div>
+    </div>
+
+    <!-- Connect our JavaScript file using Flask's url_for -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+
+
+
 
 </body>
 

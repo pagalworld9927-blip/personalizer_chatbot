@@ -1,0 +1,7 @@
+[ 2026-03-24 12:02:29,328 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-03-24 12:02:29,333 ] 97 werkzeug - INFO -  * Debugger PIN: 143-482-477
+[ 2026-03-24 12:02:29,518 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 12:02:29] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 12:02:29,671 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 12:02:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-24 12:02:29,677 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 12:02:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-03-24 12:02:39,850 ] 1025 httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-03-24 12:02:39,852 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 12:02:39] "POST /chat HTTP/1.1" 200 -

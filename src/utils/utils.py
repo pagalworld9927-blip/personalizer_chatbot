@@ -19,7 +19,7 @@ def GetMistralAI(model_name = "mistral-large-2512"):
     if not api_key:
         raise ValueError("MISTRAL_API_KEY not found in environment variables")
 
-    llm = ChatMistralAI(model = model_name, api_key=api_key, max_tokens =300)
+    llm = ChatMistralAI(model = model_name, api_key=api_key, max_tokens =500)
     return llm
 
 def GetGroqAI(model_name = "llama-3.3-70b-versatile"):

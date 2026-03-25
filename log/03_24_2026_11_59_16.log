@@ -1,0 +1,11 @@
+[ 2026-03-24 11:59:16,325 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-03-24 11:59:16,332 ] 97 werkzeug - INFO -  * Debugger PIN: 143-482-477
+[ 2026-03-24 11:59:16,477 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:59:16] "GET / HTTP/1.1" 200 -
+[ 2026-03-24 11:59:16,653 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:59:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-03-24 11:59:16,654 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:59:16] "GET /static/js/main.js HTTP/1.1" 200 -
+[ 2026-03-24 11:59:16,718 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:59:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2026-03-24 11:59:21,826 ] 1025 httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-03-24 11:59:21,835 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:59:21] "POST /chat HTTP/1.1" 200 -
+[ 2026-03-24 11:59:45,371 ] 1025 httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-03-24 11:59:45,382 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Mar/2026 11:59:45] "POST /chat HTTP/1.1" 200 -
+[ 2026-03-24 12:00:37,118 ] 97 werkzeug - INFO -  * Detected change in 'D:\\mannu\\GEN AI\\Personalizer_Chatbot\\src\\utils\\utils.py', reloading
