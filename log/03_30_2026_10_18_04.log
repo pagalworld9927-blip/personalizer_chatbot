@@ -1,0 +1,5 @@
+[ 2026-03-30 10:18:04,548 ] 18 src.utils.utils - INFO - GetMistralAI model is called with model name:  mistral-large-2512
+[ 2026-03-30 10:18:04,550 ] 26 src.utils.utils - INFO - GetMistralAI sucesfully created...
+[ 2026-03-30 10:18:04,606 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-03-30 10:18:04,612 ] 97 werkzeug - INFO -  * Debugger PIN: 143-482-477
+[ 2026-03-30 10:20:28,039 ] 97 werkzeug - INFO -  * Detected change in 'D:\\mannu\\GEN AI\\Personalizer_Chatbot\\src\\state\\state.py', reloading

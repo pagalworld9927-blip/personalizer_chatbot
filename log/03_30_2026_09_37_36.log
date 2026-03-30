@@ -1,0 +1,10 @@
+[ 2026-03-30 09:37:36,952 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-03-30 09:37:36,962 ] 97 werkzeug - INFO -  * Debugger PIN: 143-482-477
+[ 2026-03-30 09:37:37,335 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Mar/2026 09:37:37] "GET / HTTP/1.1" 200 -
+[ 2026-03-30 09:37:37,688 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Mar/2026 09:37:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-03-30 09:37:37,805 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Mar/2026 09:37:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[ 2026-03-30 09:37:37,874 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Mar/2026 09:37:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2026-03-30 09:37:41,525 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Mar/2026 09:37:41] "POST /history HTTP/1.1" 200 -
+[ 2026-03-30 09:37:43,444 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Mar/2026 09:37:43] "POST /history HTTP/1.1" 200 -
+[ 2026-03-30 09:37:45,190 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Mar/2026 09:37:45] "POST /history HTTP/1.1" 200 -
+[ 2026-03-30 10:17:34,336 ] 97 werkzeug - INFO -  * Detected change in 'D:\\mannu\\GEN AI\\Personalizer_Chatbot\\src\\utils\\utils.py', reloading
